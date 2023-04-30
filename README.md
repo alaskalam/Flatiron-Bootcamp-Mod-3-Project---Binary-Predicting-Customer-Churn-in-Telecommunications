@@ -1,6 +1,4 @@
 
-# Module 3 Final Project
-
 
 ## Introduction
 
