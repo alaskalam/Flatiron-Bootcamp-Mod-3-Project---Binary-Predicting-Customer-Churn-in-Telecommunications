@@ -64,7 +64,9 @@ False positives, aka believing the customer will churn when they in fact stay, a
 
 We decided to conduct a baseline random forest model, and then proceeded to run SMOTE, create 2 new features (whether or not a customer had changed types of membership plans, and the number of services a customer currently subscribes to), perform hyperparameter tuning and create a new model. The results are below:
 
+<img width="410" alt="negpos" src="https://user-images.githubusercontent.com/30219907/235380302-e32581c7-bf0f-45bb-80bd-435cd4118626.png">
 
+<img width="685" alt="testresults" src="https://user-images.githubusercontent.com/30219907/235380330-90e01794-e7d2-4a17-aab4-f1b81c9cd7f1.png">
 
 
 Our finished model, with our new features of "number of services used" and "switched plans or not", added includes a recall for 1 of .77, which is a drastic increase from our baseline model of .46.
